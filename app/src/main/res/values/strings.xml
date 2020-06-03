@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BrazukacarcleanUser</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="email">E-Mail</string>
+    <string name="senha">Senha</string>
+    <string name="telefone">Telefone</string>
+    <string name="cpf">CPF</string>
+    <string name="data_nascimento">Data Nascimento</string>
+    <string name="proximo">Proxímo</string>
+    <string name="nome">Nome</string>
+    <string name="cidade">Cidade</string>
+    <string name="estado">Estado</string>
+    <string name="complemento">Complemento</string>
+    <string name="numero">Número</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="ano_fabricacao">Ano Fabricação</string>
+    <string name="placa">Placa</string>
+    <string name="modelo">Modelo</string>
+    <string name="marca">Marca</string>
+    <string name="rua">Rua</string>
+    <string name="cep">CEP</string>
+    <string name="novo_cadastro">Registrar</string>
+    <string name="entrar">Entrar</string>
+    <string name="proximos">Proxímos</string>
+</resources>

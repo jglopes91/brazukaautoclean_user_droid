@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.AddressRegisterActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_pai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/et_street"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/rua"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="@id/layout_pai"
+            app:layout_constraintStart_toStartOf="@id/layout_pai"
+            app:layout_constraintTop_toTopOf="@id/layout_pai" />
+
+        <EditText
+            android:id="@+id/et_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cidade"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="@id/layout_pai"
+            app:layout_constraintStart_toStartOf="@id/layout_pai"
+            app:layout_constraintTop_toBottomOf="@id/et_street" />
+
+        <EditText
+            android:id="@+id/et_zipcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cep"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@id/layout_pai"
+            app:layout_constraintStart_toStartOf="@id/layout_pai"
+            app:layout_constraintTop_toBottomOf="@id/et_city" />
+
+        <EditText
+            android:id="@+id/et_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/numero"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@id/layout_pai"
+            app:layout_constraintStart_toStartOf="@id/layout_pai"
+            app:layout_constraintTop_toBottomOf="@id/et_zipcode" />
+
+        <EditText
+            android:id="@+id/et_complement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/complemento"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="@id/layout_pai"
+            app:layout_constraintStart_toStartOf="@id/layout_pai"
+            app:layout_constraintTop_toBottomOf="@id/et_number" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btn_proximo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:text="@string/proximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
